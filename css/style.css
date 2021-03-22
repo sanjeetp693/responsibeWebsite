@@ -1,0 +1,159 @@
+.main{
+	overflow-x:hidden;
+}
+
+.link{
+    color: #fff;
+    padding-right: 0px;
+}
+.go-img{
+	-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.background{
+	background-image: url("img/ic_banner.png");
+}
+.btn{
+	width: 20%;
+}
+/*
+.slider{
+	position: relative;
+}
+.inner{
+ position: absolute;
+ top: 5px;
+ left: 20px;
+}*/
+.carousel-wrap {
+  margin: 5px auto;
+  padding: 0 5%;
+  width: 104%;
+  position: relative;
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+  position: relative;
+  z-index: 100; 
+  -webkit-backface-visibility: hidden; 
+  padding-bottom: 0px;
+}
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+  left: -30px;
+}
+
+.owl-nav .owl-next {
+  right: -30px;
+}
+.mycard{
+	transition: 0.3s;
+}
+.card-body{
+	color: white;
+}
+.last-footer{
+	color: white;
+	text-align: center;
+	
+}
+
+
+
+
+
+.nav-item{
+	color: white;
+}
+.last_bg{
+	background-color: black;
+	color: white;
+}
+.img{
+	background-image: url('img/ic_img6.png');
+}
+
+
+.image1{
+	height: 400px;
+	background-image: url("img/ic_img6.png");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.image2{
+	height: 400px;
+	background-image: url("img/ic_img7.png");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.image3{
+	height: 400px;
+	background-image: url('img/ic_img8.png');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.search{
+	color: white;
+}
+@media only screen and (max-width: 767px) {
+  .background {
+    width: 100%;
+    float: right;
+  }
+	.button-rel{
+		width: 30%;
+	}
+	.image1{
+		margin-bottom: 10px;
+	}
+	.image2{
+		margin-bottom: 10px;
+	}
+	.image3{
+		margin-bottom: 10px;
+	}
+	.col-sm-3{
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	.navbar navbar-light pl-4{
+		float: left;
+	}
+	.arrow{
+		visibility: hidden;
+	}
+	.button-rel{
+		object-fit: cover;
+	}
+	.bag{
+		visibility: hidden;
+	}
+	.search{
+		visibility: hidden;
+	}
+	.nav-link{
+	  margin-left: -20%;
+	}
+	.navbar-toggler{
+		background-color: #fff;
+	}
+}
